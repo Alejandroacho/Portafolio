@@ -244,7 +244,7 @@
               </ul>
             </div>
             <div class="resume-item">
-                <h4>Desarrollador</h4>
+                <h4>Desarrollador Full-Stack</h4>
                 <h5>2020</h5>
                 <p><em>NotAlone, Barcelona, España </em></p>
                 <ul>
