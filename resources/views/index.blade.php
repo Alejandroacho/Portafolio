@@ -32,7 +32,36 @@
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
   <!-- ======= Header ======= -->
-  @extends('layouts.header')
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Alejandro Acho</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/alejoacho" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/acho.tech/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Alejandroacho" class="google-plus"><i class="bx bxl-github"></i></a>
+          <a href="www.linkedin.com/in/alejandro-acho" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>Sobre Mi</span></a></li>
+          <li><a href="#resume"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-window-alt"></i> Portafolio</a></li>
+          <li><a href="#services"><i class="bx bx-selection"></i> Caracteristicas</a></li>
+          <li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
+
+        </ul>
+        </nav>
+        <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+    </header>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
@@ -50,7 +79,7 @@
 
         <div class="section-title">
           <h2>Sobre mi</h2>
-          <p>Soy un chico mexicano que vive en Barcelona, y cursé un bootcamp de progamación en dicha ciudad. Ahí obtuve conocimientos sólidos de programación orientada a objetos, principios SOLID, metodología agile, scrum, kanban, y en términos de lenguajes, obtuve una base muy buena de PHP (junto con Laravel) aunque tambiién tocamos GO y Python. Por mi cuenta he hecho cosas en Java y Flutter.</p>
+          <p>Soy un chico mexicano que vive en Barcelona, y cursé un bootcamp de progamación en dicha ciudad. Ahí obtuve conocimientos sólidos de programación orientada a objetos, principios SOLID, metodología agile, scrum, kanban, y en términos de lenguajes, obtuve una base muy buena de PHP (junto con Laravel) aunque tambiién tocamos GO y Python. Por mi cuenta he hecho cosas en Javascript, React Native e Ionic.</p>
         </div>
 
         <div class="row">
@@ -65,8 +94,8 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Nacimiento:</strong> 10 Sptiembre 1995</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.alejandroacho.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Nacimiento:</strong> 10 de Septiembre de 1995</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> alejandroacho.com</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Telefóno:</strong> +34 640 51 80 09</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Ciudad:</strong> Barcelona, España</li>
                 </ul>
@@ -75,13 +104,13 @@
                 <ul>
                   <li><i class="icofont-rounded-right"></i> <strong>Edad:</strong> 24 años</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Estudios:</strong> Bachillerato</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> alejandroacho@hotmail.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> contacto@alejandroacho.com</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Disponible</li>
                 </ul>
               </div>
             </div>
             <p>
-              Suelo hacer uno o dos proyectos como freelance al mes con fechas de entrega bastante razonable. Puedes contactar conmigo si necesitas mas información.
+              Suelo hacer uno o dos proyectos como freelance al mes con tiempos de desarrollo bastante razonables. Puedes contactar conmigo si necesitas mas información.
             </p>
           </div>
         </div>
@@ -196,23 +225,31 @@
             <div class="resume-item">
               <h4>Desarrollador Back-End</h4>
               <h5>2020</h5>
-              <p><em>Barcelona, España </em></p>
+              <p><em>Factoría F5, Barcelona, España </em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>Desarrollamos como equipo un sitio de Alumni para los estudiantes.</li>
+                <li>Desarrollé como principal tarea, la gestion de roles y permisos</li>
+                <li>Trabajamos enteramente con git y con la metodologia scrum.</li>
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2020</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <h4>Desarrollador Back-End</h4>
+                <h5>2020</h5>
+                <p><em>TraCE, Barcelona, España </em></p>
+                <ul>
+                    <li>Desarrollé junto con 5 compañeros un sitio nuevo para TraCE.</li>
+                    <li>Trabajé especialmente en el back-end aunque participé activamente en el front. </li>
+                    <li>Desarrollé como principal tarea, la parte privada de los socios</li>
+                    <li>Trabajamos enteramente con git y con la metodologia scrum.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+                <h4>Desarrollador</h4>
+                <h5>2020</h5>
+                <p><em>NotAlone, Barcelona, España </em></p>
+                <ul>
+                    <li>Desarrollé una app llamada NotAlone de principio a fin.</li>
+                    <li>Trabajé con Laravel y React-Native. </li>
               </ul>
             </div>
           </div>
@@ -247,8 +284,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -257,8 +293,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -267,8 +302,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -277,8 +311,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -287,8 +320,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -297,8 +329,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -307,8 +338,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -317,8 +347,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -327,8 +356,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -344,39 +372,39 @@
 
         <div class="section-title">
           <h2>Características</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>El haber leído 'Codigo Limpio' y haber realizado un bootcamp, sobre todo de POO, Me han influenciado en mi carrera como desarrollador y es por esto que estas son las cualidades que siempre intento conseguir en el desarrollo de código.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="icofont-computer"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <div class="icon"><i class='bx bx-diamond'></i></div>
+            <h4 class="title"><a href="">Código limpio</a></h4>
+            <p class="description">Siempre intento dejar el código lo mas pulido posible, como si de un diamante se tratase.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <div class="icon"><i class='bx bx-hourglass'></i></div>
+            <h4 class="title"><a href="">Buenos tiempos</a></h4>
+            <p class="description">Intento siempre realizar el desarrollo en tiempos bastantes razonables.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="icofont-earth"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <div class="icon"><i class='bx bx-message-rounded-check'></i></div>
+            <h4 class="title"><a href="">TDD</a></h4>
+            <p class="description">El código siempre va a estar testeado de forma unitaria asi como con test de integración.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="icofont-image"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <div class="icon"><i class='bx bx-git-merge' ></i></div>
+            <h4 class="title"><a href="">Git</a></h4>
+            <p class="description">Desarrollo de la mano de git para mantener el código y las versiones lo mas ordenado y limpio posible.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="icofont-settings"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <div class="icon"><i class='bx bx-rotate-right'></i></div>
+            <h4 class="title"><a href="">Código reutilizable</a></h4>
+            <p class="description">Siguiendo el paradigma de programación orientada a objetos, dejo el c´dogio lo mas modularizado posible.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="icofont-tasks-alt"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <div class="icon"><i class='bx bx-brain'></i></div>
+            <h4 class="title"><a href="">Soluciones meditadas</a></h4>
+            <p class="description">Por que hay veces que es mejor correr con el cerebro, que correr escribiendo código.</p>
           </div>
         </div>
 
@@ -388,7 +416,7 @@
 
         <div class="section-title">
           <h2>Posts</h2>
-          <p>Puedes echarle un vistazo a los posts que he publicado en mi blog personal, aquí te dejo mis 3 favoritos:</p>
+          <p>Puedes echarle un vistazo a los posts que he publicado en mi blog personal, aquí te dejo mis 3 favoritos y los que creo que detallan mas mi manera de trabajar:</p>
         </div>
 
       </div>
