@@ -53,7 +53,7 @@
           <li><a href="#resume"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
           <li><a href="#portfolio"><i class="bx bx-window-alt"></i> Portafolio</a></li>
           <li><a href="#services"><i class="bx bx-selection"></i> Caracteristicas</a></li>
-          <li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>
+          <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
@@ -264,7 +264,7 @@
 
         <div class="section-title">
           <h2>Portafolio</h2>
-          <p>A continuación dejo los que para mi son los 9 proyectos mas relevantes de mi portafolio. De igual forma mas abajo tienes un enlace para ver el resto de proyectos.</p>
+          <p>A continuación dejo los que para mi son los 9 proyectos mas relevantes de mi portafolio. De igual forma, si quieres revisar todos mis proyectos puedes revisar mi perfil de GitHub.</p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -280,27 +280,45 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
-              </div>
-            </div>
-          </div>
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-card filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
@@ -309,25 +327,16 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-6.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-7.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
@@ -336,16 +345,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-8.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
@@ -354,7 +354,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-9.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
@@ -411,6 +411,7 @@
       </div>
     </section><!-- End Services Section -->
 
+    <!--
     <section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
@@ -420,10 +421,10 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>--><!-- End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact section-bg">
       <div class="container">
 
         <div class="section-title">
