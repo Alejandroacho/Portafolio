@@ -48,11 +48,11 @@
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
+          <li class="active"><a href="{{'/'}}"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>Sobre Mi</span></a></li>
-          <li><a href="#resume"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
+          <li><a href="#resume"><i class="bx bx-news"></i> <span>Currículum</span></a></li>
           <li><a href="#portfolio"><i class="bx bx-window-alt"></i> Portafolio</a></li>
-          <li><a href="#services"><i class="bx bx-selection"></i> Caracteristicas</a></li>
+          <li><a href="#services"><i class="bx bx-selection"></i> Características</a></li>
           <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
 
@@ -67,7 +67,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Alejandro Acho</h1>
-      <p>Soy <span class="typed" data-typed-items="Desarrollador, Programador, Freelancer"></span></p>
+      <p>Soy <span class="typed" data-typed-items="Desarrollador, Programador, Freelance"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -79,7 +79,7 @@
 
         <div class="section-title">
           <h2>Sobre mi</h2>
-          <p>Soy un chico mexicano que vive en Barcelona, y cursé un bootcamp de progamación en dicha ciudad. Ahí obtuve conocimientos sólidos de programación orientada a objetos, principios SOLID, metodología agile, scrum, kanban, y en términos de lenguajes, obtuve una base muy buena de PHP (junto con Laravel) aunque tambiién tocamos GO y Python. Por mi cuenta he hecho cosas en Javascript, React Native e Ionic.</p>
+          <p>Soy un chico mexicano que vive en Barcelona, y cursé un bootcamp de progamación en dicha ciudad. Ahí obtuve conocimientos sólidos de programación orientada a objetos, principios SOLID, metodología agile, scrum, kanban, y en términos de lenguajes, obtuve una base muy buena de PHP (junto con Laravel) aunque también tocamos GO y Python. Por mi cuenta he hecho cosas en Javascript, React Native e Ionic.</p>
         </div>
 
         <div class="row">
@@ -87,6 +87,7 @@
             <img src="assets/img/profile-img.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <br>
             <h3>Web Developer.</h3>
             <p class="font-italic">
               Soy principalmente desarrollador web, sin embargo he llegado a desarrollar aplicaciones de escritorio y tambien para móviles.
@@ -95,20 +96,22 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="icofont-rounded-right"></i> <strong>Nacimiento:</strong> 10 de Septiembre de 1995</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> alejandroacho.com</li>
+
                   <li><i class="icofont-rounded-right"></i> <strong>Telefóno:</strong> +34 640 51 80 09</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Ciudad:</strong> Barcelona, España</li>
                 </ul>
               </div>
               <div class="col-lg-6">
+
                 <ul>
                   <li><i class="icofont-rounded-right"></i> <strong>Edad:</strong> 24 años</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Estudios:</strong> Bachillerato</li>
+    
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> contacto@alejandroacho.com</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Disponible</li>
                 </ul>
               </div>
             </div>
+            <br>
             <p>
               Suelo hacer uno o dos proyectos como freelance al mes con tiempos de desarrollo bastante razonables. Puedes contactar conmigo si necesitas mas información.
             </p>
@@ -124,7 +127,7 @@
 
         <div class="section-title">
           <h2>Habilidades</h2>
-          <p>Si bien me siento una persona totalmente enamorada del back-end, eso no siento que haya limitado mi aprendizaje y desarrollo en la parte del front-end. De todas formas aqui puedes observar como siento mis habilidades en ciertos temas:</p>
+          <p>Si bien me siento una persona totalmente enamorada del back-end, no siento que eso haya limitado mi aprendizaje y desarrollo en la parte del front-end. De todas formas aqui puedes observar como siento mis habilidades en ciertos temas:</p>
         </div>
 
         <div class="row skills-content">
@@ -171,7 +174,7 @@
             </div>
 
             <div class="progress">
-              <span class="skill">Java <i class="val">80%</i></span>
+              <span class="skill">Wordpress <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -270,7 +273,7 @@
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter="*" class="filter-active">Todo</li>
               <li data-filter=".filter-web">Web</li>
               <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-card">Otros</li>
@@ -282,16 +285,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/trace.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
@@ -300,25 +294,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-card filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/notalone.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
@@ -327,7 +303,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/sudoku.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
@@ -336,16 +312,16 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/kvirus.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card ">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/katas.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
@@ -354,13 +330,14 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/blog.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
 
+          
         </div>
 
       </div>
