@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>Portafolio - TraCE</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -53,11 +53,11 @@
         <ul>
           <li><a href="{{'/'}}"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="{{'/#about'}}"><i class="bx bx-user"></i> <span>Sobre Mi</span></a></li>
-          <li><a href="#resume"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-window-alt"></i> Portafolio</a></li>
-          <li><a href="#services"><i class="bx bx-selection"></i> Caracteristicas</a></li>
+          <li><a href="{{'/#resume'}}"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
+          <li><a href="{{'/#portfolio'}}"><i class="bx bx-window-alt"></i> Portafolio</a></li>
+          <li><a href="{{'/#services'}}"><i class="bx bx-selection"></i> Caracteristicas</a></li>
           <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
+          <li><a href="{{'/#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
         </nav>
@@ -80,27 +80,27 @@
         <div class="portfolio-details-container">
 
           <div class="owl-carousel portfolio-details-carousel">
-            <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/portfolio-details-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/portfolio-details-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/portfolio-details-3.jpg" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
             <h3>Información del proyecto</h3>
             <ul>
-              <li><strong>Categoria</strong>: </li>
-              <li><strong>Cliente</strong>: </li>
+              <li><strong>Categoria</strong>: Web</li>
+              <li><strong>Estado</strong>: En desarrollo </li>
               <li><strong>Fecha</strong>: 2020</li>
-              <li><strong>URL del proyecto</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>URL del proyecto</strong>: <a href="https://tracecatalunya.org/">tracecatalunya.org/</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>Titulo ejemplo</h2>
+          <h2>TraCE</h2>
           <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            Se trató de un proyecto en el cual tuvimos que reformar la web.
           </p>
         </div>
 

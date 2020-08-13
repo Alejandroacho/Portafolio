@@ -287,7 +287,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/trace.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+                <a href="{{'/trace'}}" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -296,7 +296,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/notalone.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+                <a href="{{'/notalone'}}" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -305,7 +305,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sudoku.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+                <a href="{{'/sudoku'}}" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -314,7 +314,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/kvirus.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+                <a href="{{'/kvirus'}}" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -323,7 +323,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/katas.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+                <a href="{{'/katas'}}" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
@@ -332,7 +332,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/blog.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="/project-details" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+                <a href="{{'/blog'}}" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>

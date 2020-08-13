@@ -53,11 +53,11 @@
         <ul>
           <li><a href="{{'/'}}"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="{{'/#about'}}"><i class="bx bx-user"></i> <span>Sobre Mi</span></a></li>
-          <li><a href="#resume"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-window-alt"></i> Portafolio</a></li>
-          <li><a href="#services"><i class="bx bx-selection"></i> Caracteristicas</a></li>
+          <li><a href="{{'/#resume'}}"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
+          <li><a href="{{'/#portfolio'}}"><i class="bx bx-window-alt"></i> Portafolio</a></li>
+          <li><a href="{{'/#services'}}"><i class="bx bx-selection"></i> Caracteristicas</a></li>
           <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
+          <li><a href="{{'/#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
         </nav>
@@ -80,9 +80,9 @@
         <div class="portfolio-details-container">
 
           <div class="owl-carousel portfolio-details-carousel">
-            <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/portfolio-details-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/portfolio-details-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/portfolio-details-3.jpg" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
