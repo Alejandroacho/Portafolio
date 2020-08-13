@@ -74,7 +74,7 @@
 
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Zona en construcción</h5>
+            <h5 class="card-title">Zona en construcción ...</h5>
             <p class="card-text">¡Vuelve en un par de días!</p>
             <a href="{{'/'}}" class="btn btn-secondary"><i style="color:white" class="icofont-arrow-left"></i>Volver a inicio</a>
         </div>
