@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -262,6 +262,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #hero{
+    background: url("../img/hero-sm.png") top center;
+    
   }
 }
 
