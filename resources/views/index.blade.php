@@ -67,7 +67,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Alejandro Acho</h1>
-      <p>Soy <span class="typed" data-typed-items="Desarrollador, Programador, Freelance"></span></p>
+      <p>Soy <span class="typed" data-typed-items="Desarrollador, Programador, Freelancer, Coder"></span></p>
     </div>
   </section><!-- End Hero -->
 
