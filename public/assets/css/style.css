@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1090px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
