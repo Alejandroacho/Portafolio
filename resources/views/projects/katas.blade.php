@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>Katas | Alejandro Acho</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,12 +40,12 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alejandro Acho</a></h1>
+        <h1 class="text-light"><a href="{{'/'}}">Alejandro Acho</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/alejoacho" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/acho.tech/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Alejandroacho" class="google-plus"><i class="bx bxl-github"></i></a>
-          <a href="www.linkedin.com/in/alejandro-acho" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/alejoacho" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/acho.tech/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Alejandroacho" class="google-plus" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/alejandro-acho" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -57,7 +57,7 @@
           <li><a href="{{'/#portfolio'}}"><i class="bx bx-window-alt"></i> Portafolio</a></li>
           <li><a href="{{'/#services'}}"><i class="bx bx-selection"></i> Caracteristicas</a></li>
           <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
-          <li><a href="{{'/#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
+          <li><a href="{{'#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
         </nav>
@@ -82,25 +82,31 @@
           <div class="owl-carousel portfolio-details-carousel">
             <img src="assets/img/portfolio/details/katas1.png" class="img-fluid" alt="">
             <img src="assets/img/portfolio/details/katas2.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/katas3.png" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
             <h3>Información del proyecto</h3>
             <ul>
-              <li><strong>Categoria</strong>: Otros</li>
-              <li><strong>Estado</strong>: En desarrollo</li>
-              <li><strong>Fecha</strong>: Siempre</li>
-              <li><strong>URL del proyecto</strong>: <a href="https://github.com/Alejandroacho">github.com</a></li>
+              <li><strong>Categoría</strong>: Katas </li>
+              <li><strong>Fecha</strong>: Siempre </li>
+              <li><strong>URL del proyecto</strong>: <a href="https://github.com/Alejandroacho" target="_blank">GitHub</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>Katas</h2>
-          <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-          </p>
+            <h2>Katas</h2>
+            <p>
+                Soy un fiel amante de las katas. Siento que es la mejor manera de afinar y practicar nuestras habilidades como programadores. He hecho katas en PHP, Python, JavaScript y Go principalmente. Las he hecho tanto en mi IDE como en mi página preferida para las katas (codewars).
+                <br>
+                <br>
+                Entre mis katas preferidas se encuentra la kata FizzBuzz, la cual la he hecho ya en varios lenguages ya que es lo primero que hago para ver como funciona un lenguage nuevo. Tambien la kata de Romeo y Julieta, la cual consistía en explicar, mediante código, la historia de Shakespeare a grosso modo.
+                <br>
+                <br>
+                Puedes ver varias katas que he hecho en mi perfil de GitHub.
+            </p>
         </div>
 
       </div>

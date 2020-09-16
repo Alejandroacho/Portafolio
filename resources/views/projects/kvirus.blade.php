@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>Kvirus | Alejandro Acho</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,12 +40,12 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alejandro Acho</a></h1>
+        <h1 class="text-light"><a href="{{'/'}}">Alejandro Acho</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/alejoacho" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/acho.tech/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Alejandroacho" class="google-plus"><i class="bx bxl-github"></i></a>
-          <a href="www.linkedin.com/in/alejandro-acho" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/alejoacho" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/acho.tech/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Alejandroacho" class="google-plus" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/alejandro-acho" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -57,7 +57,7 @@
           <li><a href="{{'/#portfolio'}}"><i class="bx bx-window-alt"></i> Portafolio</a></li>
           <li><a href="{{'/#services'}}"><i class="bx bx-selection"></i> Caracteristicas</a></li>
           <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
-          <li><a href="{{'/#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
+          <li><a href="{{'#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
         </nav>
@@ -88,20 +88,22 @@
           <div class="portfolio-info">
             <h3>Información del proyecto</h3>
             <ul>
-              <li><strong>Categoria</strong>: Web & Otros</li>
-              <li><strong>Estado</strong>: Terminado</li>
-              <li><strong>Fecha</strong>: 2020</li>
-              <li><strong>URL del proyecto</strong>: <a href="https://github.com/Alejandroacho/K-virus">github.com</a></li>
+              <li><strong>Categoría</strong>: Desarrollo web y juegos </li>
+              <li><strong>Fecha</strong>: Marzo 2020 </li>
+              <li><strong>URL del proyecto</strong>: <a href="https://github.com/Alejandroacho/K-virus" target="_blank">GitHub</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>K-Virus</h2>
-          <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-          </p>
+            <h2>K-virus</h2>
+            <p>
+                Se trata de mi primera participación en una hackathon. Se trataba de una hackathon online ya que fue en los primeros meses de la cuarentena a causa de la pandemia del covid-19. De hecho la temática de la hackathon era precisamente de virus, y nosotros decidimos hacer un pequeño juego en el que aparece un nombre, y tu tienes que elegir si se trata de un virus o de una banda de k-pop.
+                <br>
+                <br>
+                Lo hicimos entre varios amigos tras nuestras 3 primeras semanas en el mundo de la programación, y fue esto lo que hizo que nos encontrasemos con varios desafíos que en su momento nos parecían muy dificiles pero viendolos con retrospectiva no fue nada del otro mundo. Lo hicimos en php vanilla.
+            </p>
         </div>
 
       </div>

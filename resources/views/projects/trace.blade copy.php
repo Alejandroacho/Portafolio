@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>$project->title | Alejandro Acho</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,12 +40,12 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alejandro Acho</a></h1>
+        <h1 class="text-light"><a href="{{'/'}}">Alejandro Acho</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/alejoacho" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/acho.tech/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Alejandroacho" class="google-plus"><i class="bx bxl-github"></i></a>
-          <a href="www.linkedin.com/in/alejandro-acho" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/alejoacho" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/acho.tech/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Alejandroacho" class="google-plus" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/alejandro-acho" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -53,11 +53,11 @@
         <ul>
           <li><a href="{{'/'}}"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="{{'/#about'}}"><i class="bx bx-user"></i> <span>Sobre Mi</span></a></li>
-          <li><a href="#resume"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-window-alt"></i> Portafolio</a></li>
-          <li><a href="#services"><i class="bx bx-selection"></i> Caracteristicas</a></li>
+          <li><a href="{{'/#resume'}}"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
+          <li><a href="{{'/#portfolio'}}"><i class="bx bx-window-alt"></i> Portafolio</a></li>
+          <li><a href="{{'/#services'}}"><i class="bx bx-selection"></i> Caracteristicas</a></li>
           <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
+          <li><a href="{{'#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
         </nav>
@@ -88,20 +88,19 @@
           <div class="portfolio-info">
             <h3>Información del proyecto</h3>
             <ul>
-              <li><strong>Categoria</strong>: </li>
-              <li><strong>Cliente</strong>: </li>
-              <li><strong>Fecha</strong>: 2020</li>
-              <li><strong>URL del proyecto</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Categoría</strong>: Categoria </li>
+              <li><strong>Fecha</strong>: Fecha </li>
+              <li><strong>URL del proyecto</strong>: <a href="#" target="_blank">URL</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>Titulo ejemplo</h2>
-          <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-          </p>
+            <h2>Titulo</h2>
+            <p>
+                Descripcion
+            </p>
         </div>
 
       </div>

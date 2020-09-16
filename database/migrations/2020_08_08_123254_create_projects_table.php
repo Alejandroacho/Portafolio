@@ -12,6 +12,10 @@ class CreateProjectsTable extends Migration
             $table->id();
             $table->string('title');
             $table->text('description');
+            $table->string('category');
+            $table->string('url');
+            $table->string('url_name');
+            $table->string('relase_date');
             $table->timestamps();
         });
     }

@@ -37,12 +37,12 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alejandro Acho</a></h1>
+        <h1 class="text-light"><a href="{{'/'}}">Alejandro Acho</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/alejoacho" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/acho.tech/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Alejandroacho" class="google-plus"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/alejandro-acho" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/alejoacho" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/alejandroacho/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Alejandroacho" class="google-plus" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/alejandro-acho" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -105,7 +105,7 @@
 
                 <ul>
                   <li><i class="icofont-rounded-right"></i> <strong>Edad:</strong> 24 años</li>
-    
+
                   <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> contacto@alejandroacho.com</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Disponible</li>
                 </ul>
@@ -205,7 +205,7 @@
               <ul>
                 <li>Barcelona, Catalunya, España</li>
                 <li>(+34) 640 51 80 09</li>
-                <li>contacto@alejandroacho.com</li>
+                <li>alejandroacho@hotmail.com</li>
               </ul>
             </div>
 
@@ -332,12 +332,12 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/blog.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="{{'/blog'}}" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
+                <a href="{{'/alumni'}}" data-gall="portfolioGallery" title="App 1"><i class="bx bx-show-alt"></i></a>
               </div>
             </div>
           </div>
 
-          
+
         </div>
 
       </div>
@@ -432,7 +432,7 @@
               </div>
 
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40261.655416438836!2d2.154334628156025!3d41.4074139962043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDI0JzM3LjgiTiAywrAwOSc1OS43IkU!5e0!3m2!1ses!2ses!4v1597445098415!5m2!1ses!2ses" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-              
+
             </div>
 
           </div>

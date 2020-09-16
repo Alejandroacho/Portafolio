@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>NotAlone | Alejandro Acho</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,12 +40,12 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alejandro Acho</a></h1>
+        <h1 class="text-light"><a href="{{'/'}}">Alejandro Acho</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/alejoacho" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/acho.tech/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Alejandroacho" class="google-plus"><i class="bx bxl-github"></i></a>
-          <a href="www.linkedin.com/in/alejandro-acho" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/alejoacho" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/acho.tech/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Alejandroacho" class="google-plus" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/alejandro-acho" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -57,7 +57,7 @@
           <li><a href="{{'/#portfolio'}}"><i class="bx bx-window-alt"></i> Portafolio</a></li>
           <li><a href="{{'/#services'}}"><i class="bx bx-selection"></i> Caracteristicas</a></li>
           <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
-          <li><a href="{{'/#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
+          <li><a href="{{'#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
         </nav>
@@ -88,20 +88,25 @@
           <div class="portfolio-info">
             <h3>Información del proyecto</h3>
             <ul>
-              <li><strong>Categoria</strong>: Web & App</li>
-              <li><strong>Estado</strong>: En desarrollo</li>
-              <li><strong>Fecha</strong>: 2020</li>
-              <li><strong>URL del proyecto</strong>: <a href="http://www.notalone.me">notalone.me</a></li>
+              <li><strong>Categoría</strong>: Desarrollo web y móvil </li>
+              <li><strong>Fecha</strong>: Agosto (web) | Actual (móvil)</li>
+              <li><strong>URL del proyecto</strong>: <a href="http://notalone.me/" target="_blank">Sitio oficial</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>NotAlone</h2>
-          <p>
-            Sin lugar a dudas mi proyecto favorito hasta ahora. Se trata de un servicio 
-          </p>
+            <h2>NotAlone</h2>
+            <p>
+                NotAlone es una idea propia que se trata de un sistema pensado para reemplazar el típico mensaje de "ya llegué" que miles de mujeres se ven obligadas a escribir por la situación de inseguridad en sus países. La propuesta del proyecto es que el usuario establezca una alarma que, en caso de no poder apagarla, envíe un mensaje privado e información oportuna a aquellos contactos que el usuario haya elegido.
+                <br>
+                <br>
+                El proyecto lo realicé yo solo siguiendo TDD y por medio de APIs. Lo hice con PHP y Laravel para el back-end, Bootstrap y SASS para el front-end, y MySQL para las bases de datos. Lo más complicado en este proyecto fue la implementación de CronJobs y los comandos de Laravel.
+                <br>
+                <br>
+                Actualmente la web está funcional y cumpliendo con su principal tarea. Así mismo, me encuentro trabajando en la app de móvil con React-Native para que consuma la API creada el servidor web.
+            </p>
         </div>
 
       </div>

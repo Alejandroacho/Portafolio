@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sudoku | Alejandro Acho</title>
+  <title>$project->title | Alejandro Acho</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,12 +40,12 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="{{'/'}}">Alejandro Acho</a></h1>
+        <h1 class="text-light"><a href="index.html">Alejandro Acho</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/alejoacho" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/acho.tech/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Alejandroacho" class="google-plus" target="_blank"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/alejandro-acho" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/alejoacho" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/acho.tech/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Alejandroacho" class="google-plus"><i class="bx bxl-github"></i></a>
+          <a href="www.linkedin.com/in/alejandro-acho" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -53,11 +53,11 @@
         <ul>
           <li><a href="{{'/'}}"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="{{'/#about'}}"><i class="bx bx-user"></i> <span>Sobre Mi</span></a></li>
-          <li><a href="{{'/#resume'}}"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
-          <li><a href="{{'/#portfolio'}}"><i class="bx bx-window-alt"></i> Portafolio</a></li>
-          <li><a href="{{'/#services'}}"><i class="bx bx-selection"></i> Caracteristicas</a></li>
+          <li><a href="#resume"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-window-alt"></i> Portafolio</a></li>
+          <li><a href="#services"><i class="bx bx-selection"></i> Caracteristicas</a></li>
           <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
-          <li><a href="{{'#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
         </nav>
@@ -80,34 +80,26 @@
         <div class="portfolio-details-container">
 
           <div class="owl-carousel portfolio-details-carousel">
-            <img src="assets/img/portfolio/details/sudoku1.png" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/details/sudoku2.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
             <h3>Información del proyecto</h3>
             <ul>
-              <li><strong>Categoría</strong>: Desarrollo de escritorio y juegos </li>
-              <li><strong>Fecha</strong>: Mayo 2020 </li>
-              <li><strong>URL del proyecto</strong>: <a href="https://github.com/Alejandroacho/SudokuGo" target="_blank">GitHub</a></li>
+              <li><strong>Categoria</strong>: $project->category </li>
+              <li><strong>Fecha</strong>: $project->relase_date</li>
+              <li><strong>URL del proyecto</strong>: <a href="$project->url">$project->url_name</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-            <h2>SudokuGo</h2>
+            <h2>$project-title></h2>
             <p>
-                Este fue un proyecto que desarrollé durante la formación de fullstack junto a otros 4 compañeros. Se trata de un sudoku de escritorio.
-                <br>
-                <br>
-                En este proyecto usamos Go para la lógica del back-end y el framework Wails para poder compilar el código para una aplicación de escritorio. Para el front se usó Vue.JS. Además, como equipo trabajamos con metodologías Agile como SCRUM y Kanban.
-                <br>
-                <br>
-                Este proyecto alberga un lugar especial en mi corazón ya que personalmente me encargué de la tarea de la creación del sudoku, y fue cuando creé mi primer algoritmo como tal, puesto que se genera un sudoku totalmente nuevo con cada partida. Para mi fue un proceso increible que jamás lo habria podido hacer (o al menos no de forma tan fácil) si no hubiera sido por el TDD.
-                <br>
-                <br>
-                Los principales retos en este proyecto fueron el usar un lenguage totalmente nuevo (en ese entonces nunca había cambiado de PHP) y además con un framework con tan poca información y apoyo por parte de la comunidad como lo es Wails.
+                $project->description
             </p>
         </div>
 

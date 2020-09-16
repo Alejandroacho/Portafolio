@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>Alumni | Alejandro Acho</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,12 +40,12 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alejandro Acho</a></h1>
+        <h1 class="text-light"><a href="{{'/'}}">Alejandro Acho</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/alejoacho" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/acho.tech/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Alejandroacho" class="google-plus"><i class="bx bxl-github"></i></a>
-          <a href="www.linkedin.com/in/alejandro-acho" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/alejoacho" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/acho.tech/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Alejandroacho" class="google-plus" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/alejandro-acho" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -57,7 +57,7 @@
           <li><a href="{{'/#portfolio'}}"><i class="bx bx-window-alt"></i> Portafolio</a></li>
           <li><a href="{{'/#services'}}"><i class="bx bx-selection"></i> Caracteristicas</a></li>
           <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
-          <li><a href="{{'/#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
+          <li><a href="{{'#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
         </nav>
@@ -80,28 +80,36 @@
         <div class="portfolio-details-container">
 
           <div class="owl-carousel portfolio-details-carousel">
-            <img src="assets/img/portfolio/details/portfolio-details-1.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/details/portfolio-details-2.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/details/portfolio-details-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/Alumni1.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/Alumni2.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/Alumni3.png" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
             <h3>Información del proyecto</h3>
             <ul>
-              <li><strong>Categoria</strong>: </li>
-              <li><strong>Cliente</strong>: </li>
-              <li><strong>Fecha</strong>: 2020</li>
-              <li><strong>URL del proyecto</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Categoría</strong>: Desarrollo web </li>
+              <li><strong>Fecha</strong>: Junio 2020 </li>
+              <li><strong>URL del proyecto</strong>: <a href="https://github.com/Alejandroacho/Alumni" target="_blank">GitHub</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>Titulo ejemplo</h2>
-          <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-          </p>
+            <h2>Alumni</h2>
+            <p>
+                Este fue el proyecto más completo que realizamos por aprendizaje en el bootcamp. Hicimos el alumni para nuestra promoción.
+                <br>
+                <br>
+                Trabajamos toda la clase, subdivididos en 5 grupos de 4-6 personas cada uno. Todos trabajamos con metodologías Agile con SCRUM y kanban. El equipo en el que me tocó, tuvo que trabajar el apartado de usuarios y el dashboard.
+                <br>
+                <br>
+                Todo el proyecto está en PHP con Laravel para el back-end, SASS, Bootstrap y Vue para el front y MySQL para la base de datos. Yo en lo personal me encargué del sistema de roles y permisos así como del dashboard, para el cual implementé la plantilla de AdminLTE.
+                <br>
+                <br>
+                El principal desafio en este proyecto fue la comunicación entre todos los departamentos, puesto que nunca habíamos llevado a cabo un proyecto de forma tan dividida y de manera paralela. También fue el primer proyecto al cual le hicimos deploy en un servidor real, y fue, al principio, todo un reto.
+            </p>
         </div>
 
       </div>

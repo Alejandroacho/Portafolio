@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portafolio - TraCE</title>
+  <title>TraCE | Alejandro Acho</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,12 +40,12 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alejandro Acho</a></h1>
+        <h1 class="text-light"><a href="{{'/'}}">Alejandro Acho</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/alejoacho" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.instagram.com/acho.tech/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Alejandroacho" class="google-plus"><i class="bx bxl-github"></i></a>
-          <a href="www.linkedin.com/in/alejandro-acho" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/alejoacho" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/acho.tech/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Alejandroacho" class="google-plus" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/alejandro-acho" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -56,8 +56,7 @@
           <li><a href="{{'/#resume'}}"><i class="bx bx-news"></i> <span>Curriculum</span></a></li>
           <li><a href="{{'/#portfolio'}}"><i class="bx bx-window-alt"></i> Portafolio</a></li>
           <li><a href="{{'/#services'}}"><i class="bx bx-selection"></i> Caracteristicas</a></li>
-          <!--<li><a href="#services"><i class="bx bx-edit-alt"></i> Blog</a></li>-->
-          <li><a href="{{'/#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
+          <li><a href="{{'#contact'}}"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
         </nav>
@@ -80,28 +79,39 @@
         <div class="portfolio-details-container">
 
           <div class="owl-carousel portfolio-details-carousel">
-            <img src="assets/img/portfolio/details/portfolio-details-1.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/details/portfolio-details-2.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio/details/portfolio-details-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/trace1.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/trace2.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/details/trace3.png" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
             <h3>Información del proyecto</h3>
             <ul>
-              <li><strong>Categoria</strong>: Web</li>
-              <li><strong>Estado</strong>: En desarrollo </li>
-              <li><strong>Fecha</strong>: 2020</li>
-              <li><strong>URL del proyecto</strong>: <a href="https://tracecatalunya.org/">tracecatalunya.org/</a></li>
+              <li><strong>Categoría</strong>: Desarrollo web </li>
+              <li><strong>Fecha</strong>: Julio - Agosto 2020 </li>
+              <li><strong>URL del proyecto</strong>: <a href="https://tracecatalunya.org/" target="_blank">Sitio oficial</a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>TraCE</h2>
-          <p>
-            Se trató de un proyecto en el cual tuvimos que reformar la web.
-          </p>
+            <h2>TraCE</h2>
+            <p>
+                TraCE es una asociación sin ánimo de lucro que trabaja con personas con traumas craneoencefálicos y a la que ayudamos reformar su sitio web. Desde la asociación querían remodelar su front-end para que su página fuera más vistosa e intuitiva para los usuarios, pero además querían un sistema interno en el back-end puesto que con la llegada del covid-19 se vieron obligados a realizar muchas de sus actividades online.
+                <br>
+                <br>
+                Esta fue la premisa para realizar este proyecto, el cual fue el proyecto final del bootcamp que cursé. En este proyecto final, trabajé con 5 compañeros durante un mes, y aplicamos todo lo aprendido durante los 6 meses de bootcamp que cursamos.
+                <br>
+                <br>
+                Como equipo usamos metodologías Agile como SCRUM y Kanban para un desarrollo más eficaz. A nivel técnico trabajamos con PHP y Laravel para el back-end, Bootstrap y SASS para el front-end aunque también hay funciones en JavaScript, y MySQL para las bases de datos. Usamos GitHub para el control de versiones, y el repositorio lo puedes encontrar en mi cuenta en dicha plataforma.
+                <br>
+                <br>
+                En lo personal, trabajé más el back-end, y para ser más especifico, me encargué de implementar políticas y permisos en función de los roles de los usuarios que usan la plataforma, del despliegue en el servidor oficial y de pruebas, trabajé en un calendario en JavaScript que mostraba las actividades que tuviera adjudicados el usuario. Aunque al final dicho calendario no se implementó debido a la discapacidad de los usuarios finales.
+                <br>
+                <br>
+                Esto último es lo que mas nos costó como equipo, ya que todo el diseño tenía que ser intuitivo y amigable tanto para los encargados de la asociación, la gente que visita la página principal, y los usuarios finales que han sufrido un trauma craneoencefálico.
+            </p>
         </div>
 
       </div>
